@@ -1,7 +1,7 @@
 package com.abhi.behavioral.chainofresponsibility;
 
 public class Currency {
-    private int amount;
+    private final int amount;
 
     public Currency(int amt){
         this.amount=amt;
